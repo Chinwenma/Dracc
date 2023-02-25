@@ -17,24 +17,24 @@
 </head>
 
 <body>
-    <nav>
-        <div>
-            <div>
-                <img src="./images/logo.png" alt="" class="w-1/12">
+    <nav class=" container  p-6 bg-slate-900 w-full">
+        <div class="flex items-center justify-evenly">
+            <div class="pt-2">
+                <img src="./images/logo.png" alt="" class="w-20">
             </div>
-            <div>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services
-                        <ul>
-                            <li>ok</li>
-                        </ul>
-                    </li>
-                    <li>News</li>
-                    <li>Contact</li>
-                </ul>
+
+            <div class=" hidden md:flex space-x-6">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Events</a>
+                <a href="#">Contact</a>
             </div>
+           
+                <div class="flex space-x-3">
+                    <input type="text" class="flex-1 px-4 rounded-full border-slate-900 outline-2 h-10 "placeholder="Update in your inbox">
+                </div>
+        
         </div>
     </nav>
 </body>
