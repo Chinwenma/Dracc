@@ -17,14 +17,14 @@
 </head>
 
 <body>
-    <nav class=" container  p-6 bg-slate-900 w-full">
+    <nav class=" container  p-4 bg-red-500">
         <div class="flex items-center justify-evenly">
             <div class="pt-2">
                 <img src="./images/logo.png" alt="" class="w-20">
             </div>
 
-            <div class=" hidden md:flex space-x-6">
-                <a href="#">Home</a>
+            <div class=" hidden md:flex space-x-6 font-semibold">
+                <a href="#" class=" hover:text-slate-800 hover:underline-offset-2">Home</a>
                 <a href="#">About Us</a>
                 <a href="#">Services</a>
                 <a href="#">Events</a>
@@ -37,6 +37,79 @@
         
         </div>
     </nav>
+    <section id="hero">
+        <div>
+
+        </div>
+    </section>
+    <footer class="bg-slate-900">
+        <!--flex container-->
+        <div
+            class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!--logo and social links-->
+            <div
+                class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+                <div class="mx-auto my-6 text-center text-white md:hidden">
+                    Copyright &copy; 2022, All rights reserved
+                </div>
+                <!--logo-->
+                <div>
+                    <img src="./images/logo (1).png" class="h-8" alt="">
+                </div>
+                <!--social links box-->
+                <div class="flex justify-center space-x-2">
+                    <!--link1-->
+                    <a href="#">
+                        <img src="img/icon-facebook.svg" alt="" class="h-8">
+                    </a>
+                    <!--link2-->
+                    <a href="#">
+                        <img src="img/icon-youtube.svg" alt="" class="h-8">
+                    </a>
+                    <!--link3-->
+                    <a href="#">
+                        <img src="img/icon-twitter.svg" alt="" class="h-8">
+                    </a>
+                    <!--link4-->
+                    <a href="#">
+                        <img src="img/icon-pinterest.svg" alt="" class="h-8">
+                    </a>
+                    <!--link4-->
+                    <a href="#">
+                        <img src="img/icon-instagram.svg" alt="" class="h-8">
+                    </a>
+                </div>
+            </div>
+            <!--list container-->
+            <div class="flex justify-around space-x-32">
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-red-500">Home</a>
+                    <a href="#" class="hover:text-red-500">About Us</a>
+                    <a href="#" class="hover:text-red-500">News</a>
+                    <a href="#" class="hover:text-red-500">Contact</a>
+                </div>
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-red-500">Services</a>
+                    <a href="#" class="hover:text-red-500">Community</a>
+                    <a href="#" class="hover:text-red-500">Privacy Policy</a>
+                </div>
+            </div>
+            <!--input container-->
+            <div class="flex flex-col justify-between">
+                <form action="">
+                    <div class="flex space-x-3">
+                        <input type="text" class="flex-1 px-4 rounded-full focus :outline-none"
+                            placeholder="Update in your inbox">
+                        <button
+                            class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">Go</button>
+                    </div>
+                </form>
+                <div class="hidden text-white md:block">
+                    Copyright &copy; 2022. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
